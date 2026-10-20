@@ -1,2 +1,2 @@
 #!/bin/bash
-usermod -s /bin/zsh [betty]
+su - [betty]
