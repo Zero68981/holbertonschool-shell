@@ -1,2 +1,2 @@
 #!/bin/bash
-echo cut -d ':' -f 1,6 /etc/passwrd | sort
+cat /etc/passwrd | cut -d ':' -f 1,6 | sort
